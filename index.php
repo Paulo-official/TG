@@ -23,7 +23,7 @@
                 <div>
                     <h2>Login</h2>
                     <p>Bem-vindo ao Envios Management, coloque seus dados abaixo para começar a usar o
-                        aplicativo</p>
+                        sistema</p>
                     <small id="error"><?=isset($_GET['error'])?'Usuário ou senha incorreto':'' ?> </small>
                     <form name="loginForm" onsubmit="return validationForm()" action="form_request/user_login.php"
                         method="POST">
